@@ -1,0 +1,72 @@
+body {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  background-color: #0b0c10;
+  color: #e5e5e5;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: rgba(17, 17, 17, 0.9) !important;
+  backdrop-filter: blur(6px);
+}
+
+.hero {
+  background: linear-gradient(135deg, #0b0c10 0%, #111827 50%, #1f2937 100%);
+  min-height: 100vh;
+  padding-top: 160px;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #06b6d4, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-title {
+  font-weight: 700;
+  color: #5eead4;
+  letter-spacing: 0.5px;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #5eead4;
+  box-shadow: 0 0 25px rgba(94, 234, 212, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  transition: all 0.3s ease;
+}
+
+.glass:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-5px);
+}
+
+.project-card {
+  background-color: #111827;
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(94, 234, 212, 0.3);
+}
+
+footer {
+  background-color: #0f1117;
+  border-top: 1px solid #1f2937;
+}
